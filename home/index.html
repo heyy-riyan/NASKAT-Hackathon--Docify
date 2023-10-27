@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<html lang="en">
+
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>DOCIFY</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="data:image/png;base64,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" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html"> HOME </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="http://127.0.0.1:5000">Appointment</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="https://chat.openai.com/chat">CHATBOT</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">Contact</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="http://127.0.0.1:8000/">PharmOnline</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="http://127.0.0.1:5000/">Book a Bed </a>
+                              </li>
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                              </li>
+                              <li class=" d_none get_btn">
+                                 <a  href="http://127.0.0.1:5000">Disease Predict</a>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="text-bg">
+                     <h1>DOCIFY</h1>
+                     <p>Hence with all the functionalities given in our system a farmer can get detailed insights of his crops diseases, yield quality, fertilizers to be used based on Nitrogen, Phosphorus, Potassium levels available in the soil and also recommending a crop based on the elements in the soil and water density in the soil and minerals in the soil.</p>
+                     <a href="http://127.0.0.1:5000/">KNOW YOUR DISEASE</a>
+                     <p>This feature helps you get detailed insights and prediction of your disease</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- three_box -->
+      <div class="three_box">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ZERpBv1SSvwuSIuW_1t1Bk1KMA7EcQKaZg&usqp=CAU" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <figure><img src="https://i.pinimg.com/originals/92/f0/1e/92f01eb9fb694742444697f51837acd0.png" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYNQTiUCJlieeUkSkUKVA3an6ienuU_LXtPA&usqp=CAU" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- three_box -->
+      <!-- hottest -->
+      <div  class="hottest">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="titlepage">
+                     <h2>GOING TO DOCTORS <br>MADE MORE RELIABLE</h2>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="hottest_box">
+                     <p>Modern technology has greatly impacted the way we schedule appointments. Gone are the days of calling a receptionist and waiting on hold for hours to schedule an appointment. Now, patients can easily book appointments online through a variety of platforms.
+
+                        One of the most popular ways to schedule appointments is through online portals provided by healthcare providers. These portals allow patients to view available appointment times, select a time that works best for them, and even confirm the appointment with a few clicks. This eliminates the need to wait on the phone or make multiple calls to find an available appointment. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      <!-- end hottest -->
+      <!-- choose  section -->
+      <div class="choose ">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <div class="titlepage">
+                     <h2>Why Docify? </h2>
+                     <p>Here we have a system for farmers where we deal with the lagging parts of technology where agricultural tech is left
+                         unnoticed. Here we prepared a solution where we will be providing farmers with a system where he can get full and
+                          detailed analysis of his present crop and also what will be his next crop with additional functionalities such as
+                           attendance system where he can get notified of his workers presence and an online market where customer can directly
+                            access the inventory of the farmer and get an optimal pricing both for the farmer and the buyer with a secured and
+                             encrypted database which helps the farmer in data security  </p>
+                  </div>
+               </div>
+            </div> Modern technology can help increase access to healthcare services by making it easier for patients to schedule appointments, view their medical records, 
+            and communicate with their healthcare providers. This can be especially helpful for individuals in remote or underserved areas.
+         </div>
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                  <div class="padding_with">
+                     <div class="row">
+                        <div class="col-md-6 padding_bottom">
+                           <div class="choose_box">
+                              <i><img src="images/icon1.png" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Excellent Service</h3>
+                                 <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 padding_bottom">
+                           <div class="choose_box">
+                              <i><img src="images/icon2.png" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Clean Working</h3>
+                                 <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 padding_bottom2">
+                           <div class="choose_box">
+                              <i><img src="images/icon3.png" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Quality And Reliability</h3>
+                                 <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="choose_box">
+                              <i><img src="images/icon4.png" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Expert DOCTORS</h3>
+                                 <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                  <div class="choose_img">
+                     <figure><img src="data:image/jpeg;base64,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" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+        
+      </div>
+      </div>
+      <!-- end choose  section -->
+      <!-- product  section -->
+      <div class="product">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="titlepage">
+                     
+      </div>
+      <!-- end product  section -->
+      <!-- about -->
+      <div class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>ABOUT DOCIFY</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide about_Carousel " data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="test_box">
+                                          <i><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZBCtAOBe8iq2yhRFTsO8-aG4ulzGYdjFC-g&usqp=CAU" alt="#"/></i>
+                                          <h4>LISTEN TO EXPERTS</h4>
+                                          <p>Modern technology can help patients take a more active role in their own healthcare by providing them with easy access to their medical records and allowing them 
+                                             to communicate with their healthcare providers. This can lead to better patient outcomes and greater patient satisfaction.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="test_box">
+                                          
+                                          <h4>REPORT SAYS..</h4>
+                                          <p>Why is Docify important?
+                                             Because we provide a centralized paltform where a patient can get every feature </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="test_box">
+                                          
+                                          <h4>REPORT SAYS..</h4>
+                                          <p>Modern technology can help healthcare providers make more accurate diagnoses and provide more effective treatments. 
+                                             For example, telemedicine allows patients to receive medical consultations remotely, which can be especially beneficial 
+                                             for individuals with chronic conditions or disabilities.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+      
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      
+      
+      
+      <div class="container">
+         <div class="row">
+            <div class="col-md-5">
+               <a class="read_more" href="#">BACK TO TOP</a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+
