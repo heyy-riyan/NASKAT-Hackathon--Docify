@@ -1,1 +1,3 @@
 # NASKAT-Hackathon--Docify
+Here we have a system for patients where they can make an appointment with the doctor of their choice, book a bed in the hospital of there choice, and also get a prescription from the doctor & a Online Pharmary which has Admin, Customer as well as Wholesaler Login , has a chatbot which helps the customer to get the details of the medicine and also has a payment gateway which helps the customer to pay for the medicine and also has a secured and encrypted database which helps the customer in data security
+![doco](https://github.com/heyy-riyan/NASKAT-Hackathon--Docify/assets/111027758/6a53e8e4-8c7f-4b14-89fe-db81115388ed)
